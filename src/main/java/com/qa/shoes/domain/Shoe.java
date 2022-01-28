@@ -1,17 +1,17 @@
 package com.qa.shoes.domain;
 
-public class Shoes {
+public class Shoe {
 
 	private String shoeName;
 	private String brand;
 	private String colour;
 	private int size;
 
-	public Shoes() {
+	public Shoe() {
 		super();
 	}
 
-	public Shoes(String shoeName, String brand, String colour, int size) {
+	public Shoe(String shoeName, String brand, String colour, int size) {
 		super();
 		this.shoeName = shoeName;
 		this.brand = brand;
